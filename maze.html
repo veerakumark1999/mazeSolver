@@ -5,15 +5,23 @@
     <link rel="stylesheet" type="text/css" href="maze.css">
 </head>
 <body>
-    <h1>Maze Solver</h1>
-    <div>
-        <label for="mazeInput">Upload Maze File:</label>
+    <header>
+        <h1>Maze Solver</h1>
+      </header>
+   
+    <div class="container">
+       
+    <div style="margin: 30px;gap: 30px;">
+        <div id="mazeContainer" ></div>
+      
+        <div class="cont">
+            <label for="mazeInput">Upload Maze File:</label>
         <input type="file" id="mazeInput" accept=".txt" />
-        <br><br>
         <button class="button-10" onclick="showMaze()">Solve</button>
+       </div>
     </div><br>
-    <div id="mazeContainer"></div>
-
+   
+</div>
     <script src="maze.js"></script>
 </body>
 </html>
