@@ -1,11 +1,6 @@
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: radial-gradient(circle, #bcc4d0, #b9cfd8, #badad8, #c7e3d2, #dfe8cb);
-    background-size: 400% 400%;
+    background-color:gray;
+  
 }
 
 @keyframes gradientBackground {
@@ -40,7 +35,8 @@ body {
 
 
 .button-10 {
-  display: flex;
+  
+  /* display: flex; */
   flex-direction: center;
   align-items: relative;
   padding: 6px 14px;
@@ -115,5 +111,29 @@ h1 {
 }
 
 .path {
-    background-color: rgb(11, 228, 217);
+    /* background-color: blue; */
+    background-color: rgb(11, 228, 217); 
 }
+
+
+
+
+header {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .cont{
+    margin: 100px;
+    justify-content: center;
+  }
